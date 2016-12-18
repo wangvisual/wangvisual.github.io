@@ -1,4 +1,4 @@
-OpenDNS��Oracle���¹�˾���ṩ���DNS��������Ҳ�ṩ���������İ�ȫ��ֵ����
-����Umbrella Roaming Client�Ϳ����޷��Ƕ�뵽��������Windows�����ϣ�ÿ�������Զ��滻������DNS������������53�˿ڣ�Ȼ�������䵱DNS�������Ľ�ɫ������û����ʺ��������е���վ����ô�ͽ�����OpenDNS�������û���
-�ٱ��磬����û��ķ�������Ⱥ��Ҫ����ȫ�İ�����������ôֻҪ����Ա����DNS������ָ��OpenDNS�ķ�����ôOpenDNS�Ϳ��Խӹ�������ѯ�������κβ��ڰ������е���վ���ᱻ�ٳֵ�����ҳ�档
-ֻ��ϧ���ǣ�����DNS�İ�ȫ���񲢲���ô��ȫ������û��Լ�ָ����һ��DNS�������Ϳ����ƹ����ƣ�����IT��ֹ�������е�DNS��������
+OpenDNS是Oracle旗下公司，提供免费DNS解析服务，也提供基于域名的安全增值服务。
+比如Umbrella Roaming Client就可以无缝的嵌入到被管理的Windows机器上，每次启动自动替换机器的DNS服务器到本机53端口，然后自身充当DNS服务器的角色，如果用户访问黑名单当中的网站，那么就解析到OpenDNS并警告用户。
+再比如，如果用户的服务器集群需要更安全的白名单服务，那么只要管理员配置DNS服务器指向OpenDNS的服务，那么OpenDNS就可以接管域名查询工作，任何不在白名单中的网站都会被劫持到警告页面。
+只可惜的是，基于DNS的安全服务并不那么安全，如果用户自己指定另一个DNS服务器就可以绕过限制，除非IT禁止连接所有的DNS服务器。
